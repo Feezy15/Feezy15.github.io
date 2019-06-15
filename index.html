@@ -16,6 +16,21 @@
   
 </head>
 <body>
+  <nav class="navbar nav-design navbar-expand-sm fixed-top justify-content-end">
+    <!-- <a class="navbar-brand" href="#">Top</a> -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-alt" aria-controls="navbar-alt" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbar-alt">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="#about">About</a>
+        <a class="nav-item nav-link" href="#projects">Projects</a>
+        <a class="nav-item nav-link" href="#contact">Contact</a>
+        <a class="nav-item nav-link" href="resume.pdf">R&eacute;sum&eacute;</a>
+      </div>
+    </div>
+  </nav>
+
   <main role="main">
     <div class="header vertical-center">
       <div class="container">
@@ -25,24 +40,29 @@
       <canvas class="background">
       </canvas>
     </div>
-    <div class="about padding">
-    <div class="container-fluid" style="background-color:#000000">
-      <div class="row">
-        <div class="col-sm-4">
-          <div class="pic-padding">
+
+    <div id="about" class="about padding">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-4">
             <img id="my-pic" src="0.jpg" class="img-responsive mx-auto d-block" alt=":("/>
           </div>
-        </div>
-        <div class="col-sm-8" style="color:#ffffff;">
-          <div class="about-desc">
-            <h3 class="text-center" style="font-weight: bold;">About Me</h3>
-            <hr style="background-color:#fff">
-            <p>Hi, I'm Bruce!</p>
+          <div class="col-sm-8" style="color:#ffffff;">
+            <div class="about-desc">
+              <h3 class="text-center" style="font-weight: bold;">About Me</h3>
+              <hr style="background-color:#fff">
+              <p>Hi, I'm Bruce!<br><br>
+                 I'm an undergrad in computer science and an aspiring software developer who loves learning and constantly challenging myself. In my free time, I like to read, fish, and travel for food.</p>
+            </div>
           </div>
-
         </div>
       </div>
     </div>
+
+    <div id="projects" class="projects padding">
+      <div class="container-fluid">
+
+      </div>
     </div>
 
   </main>

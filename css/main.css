@@ -51,6 +51,11 @@ p {
     background-color: #000;
 }
 
+.projects {
+    display: flex;
+    background-color: #fff;
+}
+
 .padding {
     padding-top: 10vh;
     padding-bottom: 10vh;
@@ -62,6 +67,18 @@ p {
 
 #my-pic {
     border-radius: 45%;
+}
+
+.nav-design {
+    background-color: rgba(49, 62, 80, 0.6);
+}
+
+#navbar-alt a{
+    color: #fff;
+}
+
+.nav-item:hover {
+    background-color: #000 !important;
 }
 
 html, body {
