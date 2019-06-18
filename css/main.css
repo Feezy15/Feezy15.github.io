@@ -28,6 +28,11 @@
     margin-left: 10%;
 } */
 
+h1, h2, h3, h4, h5 {
+    font-weight: bold;
+    font-family: 'Lato', sans-serif; 
+}
+
 h1 {
     font-size: 14vmin !important;
     z-index: 1;
@@ -53,11 +58,16 @@ p {
 
 .projects {
     display: flex;
+    margin: 0 5vh 0 5vh;
     background-color: #fff;
 }
 
+.contact {
+
+}
+
 .padding {
-    padding-top: 10vh;
+    padding-top: 7.5vh;
     padding-bottom: 10vh;
 }
 
@@ -86,6 +96,10 @@ html, body {
   padding: 0;
   color: #2e3138;
   font-weight: lighter;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
 }
 
 .background {
