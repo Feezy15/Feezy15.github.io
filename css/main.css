@@ -63,7 +63,8 @@ p {
 }
 
 .contact {
-
+    display: flex;
+    background-color: #000;
 }
 
 .padding {
